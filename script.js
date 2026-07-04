@@ -31,6 +31,7 @@ async function getWeather () {
     showErrorMessage();
     console.log(error);
   }
+  cityInput.value = "";
 }
 
 async function fetchWeatherData(city) {
